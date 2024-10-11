@@ -11,7 +11,8 @@ chat = 572621020
 
 #edit the list
 #edit the list
-list = ["Charizard", "Blastoise", "Beedrill", "Pidgeot", "Alakazam", "Gengar", "Kangaskhan", "Pinsir", "Gyarados", "Aerodactyl", "Mewtwo", "Steelix", "Scizor", "Heracross", "Houndoom", "Tyranitar", "Sceptile", "Swampert", "Gardevoir", "Aggron", "Manectric", "Sharpedo", "Salamence", "Metagross", "Latias", "Latios", "Rayquaza", "Lopunny", "Garchomp", "Lucario", "Gallade", "Golisopod", "Wimpod", "Greninja", "Froakie", "Hawlucha", "Jellicent", "Arrokuda", "Barraskewda", "Noivern", "Noibat","Chandelure", "Lampent", "Darmanitan", "Staraptor", "Dwebble", "Crustle", "Floette", "Florges", "Litwick", "Dreepy", "Slaking", "Slakoth", "Vigoroth", "Snorlax", "Munchlax", "Sneasel", "Scyther", "Metang", "Beldum", "Weavile", "Sneasler", "Golem", "Drakloak","Inteleon" ,"Charmander","Riolu"]
+#edit the list
+list = ["Charizard", "Blastoise", "Beedrill", "Pidgeot", "Alakazam", "Gengar", "Kangaskhan", "Pinsir", "Gyarados", "Aerodactyl", "Mewtwo", "Steelix", "Scizor", "Heracross", "Houndoom", "Tyranitar", "Sceptile", "Swampert", "Gardevoir", "Aggron", "Manectric", "Sharpedo", "Salamence", "Metagross", "Latias", "Latios", "Rayquaza", "Lopunny", "Garchomp", "Lucario", "Gallade", "Golisopod", "Wimpod", "Greninja", "Froakie", "Hawlucha", "Jellicent", "Arrokuda", "Barraskewda", "Noivern", "Noibat","Chandelure", "Lampent", "Darmanitan", "Staraptor", "Dwebble", "Crustle", "Floette", "Florges", "Litwick", "Dreepy", "Slaking", "Slakoth", "Vigoroth", "Snorlax", "Munchlax", "Sneasel", "Scyther", "Metang", "Beldum", "Weavile", "Sneasler", "Golem", "Drakloak","Inteleon" ,"Charmander","Riolu","Darumaka" ]
 async def begin(event):
     global hunt
     hunt = True
