@@ -10,8 +10,8 @@ bot = TelegramClient('session' , api_id , api_hash)
 chat = 572621020
 
 #edit the list
-list = ["Charizard", "Dratini", "Dragonair", "Blastoise", "Beedrill", "Pidgeot", "Alakazam", "Gengar", "Kangaskhan", "Pinsir", "Gyarados", "Aerodactyl", "Mewtwo", "Steelix", "Scizor", "Heracross", "Houndoom", "Tyranitar", "Sceptile", "Swampert", "Gardevoir", "Aggron", "Manectric", "Sharpedo", "Salamence", "Metagross", "Latias", "Latios", "Rayquaza", "Lopunny", "Garchomp", "Lucario", "Gallade", "Golisopod", "Wimpod", "Greninja", "Froakie", "Hawlucha", "Jellicent", "Arrokuda", "Barraskewda", "Noivern", "Noibat", "Espeon", "Chandelure", "Lampent", "Darmanitan", "Staraptor", "Primarina", "Dwebble", "Crustle", "Floette", "Florges", "Litwick", "Dreepy", "Slaking", "Slakoth", "Vigoroth", "Snorlax", "Munchlax", "Sneasel", "Scyther", "Metang", "Beldum", "Weavile", "Sneasler", "Golem", "Drakloak"]
-@bot.on(events.NewMessage(outgoing=True,pattern='/go'))
+#edit the list
+list = ["Charizard", "Blastoise", "Beedrill", "Pidgeot", "Alakazam", "Gengar", "Kangaskhan", "Pinsir", "Gyarados", "Aerodactyl", "Mewtwo", "Steelix", "Scizor", "Heracross", "Houndoom", "Tyranitar", "Sceptile", "Swampert", "Gardevoir", "Aggron", "Manectric", "Sharpedo", "Salamence", "Metagross", "Latias", "Latios", "Rayquaza", "Lopunny", "Garchomp", "Lucario", "Gallade", "Golisopod", "Wimpod", "Greninja", "Froakie", "Hawlucha", "Jellicent", "Arrokuda", "Barraskewda", "Noivern", "Noibat","Chandelure", "Lampent", "Darmanitan", "Staraptor", "Dwebble", "Crustle", "Floette", "Florges", "Litwick", "Dreepy", "Slaking", "Slakoth", "Vigoroth", "Snorlax", "Munchlax", "Sneasel", "Scyther", "Metang", "Beldum", "Weavile", "Sneasler", "Golem", "Drakloak","Inteleon" ,"Charmander","Riolu"]
 async def begin(event):
     global hunt
     hunt = True
